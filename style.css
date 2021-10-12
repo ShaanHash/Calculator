@@ -1,9 +1,19 @@
+html {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+}
+
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color:royalblue;
+    min-width: 100vw;
+    min-height: 100vh;
+    flex-shrink:0;
+    margin: 0px;
 }
 
 .header {
@@ -12,6 +22,8 @@ body {
     font-weight: bold;
     font-size: 48px;
     color: white;
+    white-space: nowrap;
+    padding: 15px;
 }
 
 .calcContainer {
@@ -57,6 +69,7 @@ body {
     height: 45px;
     justify-content: center;
     line-height: 45px;
+    font-size: 20px;
 }
 
 .control {
@@ -75,6 +88,17 @@ body {
     width: 160px;
 }
 
+
+.footer {
+    justify-content: center;
+    display: flex;
+    margin-top: auto;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 100vw;
+    background-color: midnightblue;
+    color: mintcream;
+}
 
 * {
     font-family: 'Lato', sans-serif;
