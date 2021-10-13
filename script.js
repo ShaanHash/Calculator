@@ -44,7 +44,7 @@ numbers.forEach((element) => {
 
     element.addEventListener('click', () => {
   
-        if (screen.innerText.length <= 6) {
+        if (screen.innerText.length <= 12) {
             screen.innerText += element.dataset.key;
         }; 
 
