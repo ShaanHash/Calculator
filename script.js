@@ -1,19 +1,19 @@
 
 //Define Functions
 function add (arg1, arg2) {
-    return Number(arg1) + Number(arg2);
+    return Math.round((Number(arg1) + Number(arg2))*100 )/100;
 };
 
 function sub (arg1, arg2) {
-    return Number(arg1) - Number(arg2);
+    return Math.round((Number(arg1) - Number(arg2))*100)/100;
 };
 
 function mult (arg1, arg2) {
-    return Number(arg1) * Number(arg2);
+    return Math.round((Number(arg1) * Number(arg2))*100)/100;
 };
 
 function divi (arg1, arg2) {
-    return Number(arg1) / Number(arg2);
+    return Math.round((Number(arg1) / Number(arg2))*100)/100;
 };
 
 
