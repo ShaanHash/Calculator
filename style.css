@@ -78,13 +78,12 @@ body {
 }
 
 #c {
-    background-color:orangered;
+    background-color: ghostwhite;
     width: 160px;
 }
 
 #r {
-    background-color: darkred;
-    color: floralwhite;
+    background-color: ghostwhite;
     width: 160px;
 }
 
@@ -98,6 +97,23 @@ body {
     width: 100vw;
     background-color: midnightblue;
     color: mintcream;
+}
+
+[data-key="="] {
+    background-color: coral;
+}
+
+[data-key="/"] {
+    background-color: coral;
+}
+[data-key="+"] {
+    background-color: coral;
+}
+[data-key="*"] {
+    background-color: coral;
+}
+[data-key="-"] {
+    background-color: coral;
 }
 
 * {
