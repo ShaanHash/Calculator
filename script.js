@@ -25,6 +25,7 @@ let mulButton = document.querySelector("[data-key='*']");
 let equals = document.querySelector("[data-key='=']");
 let reset = document.querySelector("[data-key='reset']");
 let clear = document.querySelector("[data-key='clear']");
+let dec = document.querySelector("[data-key='.']");
 
 //debug
 let debug = document.querySelector("body");
@@ -53,6 +54,16 @@ numbers.forEach((element) => {
         };
         
     });
+});
+
+//Defube vehaivour for decimal button
+dec.addEventListener('click', () => {
+
+    if (screen.innerText.includes(".")) {
+
+    } else {
+        screen.innerText += "."
+    };
 });
 
 //Define behaivour for add button
